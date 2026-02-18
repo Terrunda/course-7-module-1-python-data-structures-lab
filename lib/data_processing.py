@@ -6,6 +6,7 @@ def format_student_data(student):
     student_major = student[2]
 
     student_string = f'ID: {str(student_id)} | Name: {student_name} | Major: {student_major}'
+    # student_string is formatted to match the specified format.
     return student_string
     """
     Format student data for display.

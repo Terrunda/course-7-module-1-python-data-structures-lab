@@ -6,9 +6,9 @@ def unique_majors(student_list):
         print(student)
         student_major = student[2]
         print(student_major)
-        student_major_list.append(student_major)
+        student_major_list.append(student_major) 
 
-    unique_major_set = set(student_major_list)
+    unique_major_set = set(student_major_list) #Here, the list is converted to a set, where duplicate elements are removed.
     return unique_major_set
 
     """
